@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafik Listesi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="graphstyle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span id="narr-brand">Narr</span></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graphs.html">Charts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Graph Section -->
+    <section id="graphs" class="py-5 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">Charts</h1>
+                    <div class="graph-container">
+                        <h2>Number of Cast per Movie</h2>
+                        <div class="graph" id="graph1">
+                            <a href="graphs/castlist_histogram.html"><img src="graphs/castlist.png" alt="Graph 1"></a>
+                        </div>
+                    </div>
+                    <div class="graph-container">
+                        <h2>Distribution of Movie Ratings</h2>
+                        <div class="graph" id="graph2">
+                            <a href="graphs/rating_histogram.html"><img src="graphs/ratings.png" alt="Graph 1"></a>
+                        </div>
+                    </div>
+                    <div class="graph-container">
+                        <h2>Movie Release by Year</h2>
+                        <div class="graph" id="graph3">
+                            <a href="graphs/releaseyear_piechart.html"><img src="graphs/releaseyear.png" alt="Graph 1"></a>
+                        </div>
+                    </div>
+                    <div class="graph-container">
+                        <h2>Movies per Director</h2>
+                        <div class="graph" id="graph4">
+                            <a href="graphs/director_film_treemap.html"><img src="graphs/director.png" alt="Graph 1"></a>
+                        </div>
+                    </div>
+                    <div class="graph-container">
+                        <h2>Movie Ratings by Length of Cast List</h2>
+                        <div class="graph" id="graph5">
+                            <a href="graphs/castlist_rating_scatter.html"><img src="graphs/ratingbycastlength.png" alt="Graph 1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; Narrative Feature Films</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="graphs.js"></script>
+</body>
+</html>

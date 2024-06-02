@@ -1,0 +1,64 @@
+body {
+    background-image: url('./images/background.avif');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to white for better visibility */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 100px; /* Adjust padding for footer */
+    min-height: 100vh; /* Ensure body fills the viewport height */
+    position: relative; /* Establish positioning context */
+    padding-top: 60px; /* Add padding to the top of the body */
+}
+
+/* Additional Styles for Narrative Movies Section */
+#narrative-movies {
+    min-height: 100vh; /* Ensure the section fills the viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table-dark {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.dynamic-text {
+    position: absolute;
+    font-size: 4.5rem; /* Increased font size */
+    font-weight: bold;
+    color: white;
+    opacity: 0.7;
+    pointer-events: none;
+    transform: translate(-50%, -50%); /* Added centering */
+}
+
+#narr-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif; /* Added new font */
+    color: #F535AA;
+}
+
+nav.navbar {
+    background-color: transparent !important; /* Make the navbar transparent */
+    position: absolute; /* Position the navbar absolutely */
+    top: 0; /* Align the navbar to the top of the body */
+    margin-bottom: 0;
+    width: 100%; /* Make the navbar span the entire width */
+    z-index: 999; /* Ensure navbar is above other content */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background color to footer */
+    color: white;
+    position: absolute; /* Position footer relative to the body */
+    width: 100%; /* Make the footer span the entire width */
+    bottom: 0; /* Align the footer to the bottom of the body */
+    padding: 20px 0; /* Add padding to the footer */
+    text-align: center; /* Center-align text within the footer */
+    box-sizing: border-box; /* Include padding in width calculation */
+}

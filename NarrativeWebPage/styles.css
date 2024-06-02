@@ -1,0 +1,62 @@
+body {
+    background-image: url('./images/background.avif');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Text color set to white for better visibility */
+    margin: 0; /* Remove default margin for full coverage */
+    padding-bottom: 100px; /* Adjust padding for footer */
+    min-height: 100vh; /* Ensure body fills viewport height */
+    position: relative; /* Establish positioning context for absolute positioning */
+    padding-top: 0; /* Add padding to the top of the body */
+}
+
+/* Additional Styles for Narrative Movies Section */
+#narrative-movies {
+    min-height: 100vh; /* Ensure section fills viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding-top: 0; /* Adjust padding to align with navbar */
+}
+
+#text-container {
+    position: relative; /* Establish positioning context */
+    height: auto; /* Adjust height as needed */
+}
+
+.dynamic-text {
+    position: absolute;
+    font-size: 4.5rem; /* Increase font size */
+    font-weight: bold;
+    color: white;
+    opacity: 0.7;
+    pointer-events: none;
+    transform: translate(-50%, -50%); /* Added centering */
+}
+
+#narr-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif; /* Added new font */
+    color: #F535AA;
+}
+
+nav.navbar {
+    background-color: transparent !important; /* Make navbar transparent */
+    position: absolute; /* Position navbar absolutely */
+    top: 0; /* Align navbar to the top of the body */
+    margin-bottom: 0;
+    width: 100%; /* Make navbar span entire width */
+    z-index: 999; /* Ensure navbar is above other content */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for footer */
+    color: white;
+    position: absolute; /* Position footer relative to the body */
+    width: 100%; /* Make footer span entire width */
+    bottom: 0; /* Align footer to bottom */
+    padding: 20px 0; /* Add padding to footer */
+    text-align: center; /* Center-align text within footer */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
