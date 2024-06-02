@@ -10,6 +10,8 @@ Welcome to the Official Top 250 Narrative Films Webpage! This project is a compr
 
 The Home Page is the landing page of the website. Currently, it serves as an introduction and navigation point to other sections of the website. There are no specific details displayed here, but it provides links to navigate to the Films and Charts pages.
 
+![Home Page](./NarrativeWebPage/images/home_page.png)
+
 ### Films Page
 
 The Films Page displays a list of the top 250 narrative films with comprehensive details scraped from Letterboxd. Each film entry includes the following information:
@@ -23,6 +25,8 @@ The Films Page displays a list of the top 250 narrative films with comprehensive
 - **Short Information**: A brief summary or description of the film.
 
 This page provides an extensive overview of each film, allowing users to explore and learn about the top narrative films.
+
+![Films Page](./NarrativeWebPage/images/movies_page.png)
 
 ### Charts Page
 
@@ -42,3 +46,6 @@ The Charts Page presents visualizations created using Plotly, offering insights 
 
 5. **Movie Ratings by Length of Cast List**
    - This chart correlates the length of the cast list with movie ratings. It explores if there's any relationship between the number of cast members and the film's rating, offering insights into casting practices and their potential impact on film quality.
+
+![Charts Page](./NarrativeWebPage/images/charts_page1.png)
+![Charts Page](./NarrativeWebPage/images/charts_page2.png)
